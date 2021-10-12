@@ -158,6 +158,9 @@
   <ItemGroup>
     <ClInclude Include="graphPoints.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\HeartRate.csv" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
