@@ -71,8 +71,8 @@ std::vector<std::pair<std::string, std::vector<int>>> read_csv(std::string filen
     return result;
 }
 
-void graphPoints::loadPoints(std::string _fileName) {
-    std::vector<std::pair<std::string, std::vector<int>>> heartRate = read_csv("HeartRate.csv");
+void graphPoints::loadPoints(std::string filename) {
+    std::vector<std::pair<std::string, std::vector<int>>> heartRate = read_csv(filename);
 };
 void graphPoints::addPoint(sf::CircleShape _point) {
 	points.push_back(_point);

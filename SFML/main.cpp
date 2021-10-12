@@ -29,8 +29,8 @@ int main()
         }
 
 #pragma endregion
-        sf::CircleShape pt; pt.setFillColor(sf::Color(255, 0, 0)); pt.setRadius(4); pt.setOrigin(4, 4); pt.setPosition(winSize.x/2, winSize.y/2);
-        graphsPts.addPoint(pt);
+        sf::CircleShape pt;  
+        graphsPts.loadPoints("HeartRate.csv");
 
         window.clear();                                                 // Clear graphics buffer
         graphsPts.drawPoints(window);
